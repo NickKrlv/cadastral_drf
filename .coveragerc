@@ -1,0 +1,13 @@
+[run]
+source = .
+omit =
+    manage.py
+    *migrations*
+    *tests*
+    *settings*
+    *wsgi*
+    *urls*
+
+[report]
+show_missing = True
+skip_covered = True
